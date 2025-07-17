@@ -1,0 +1,77 @@
+.storybook-button {
+  font-weight: 700;
+  border: 0;
+  border-radius: 10px;
+  cursor: pointer;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.storybook-button--primary {
+  color: white;
+  background-color: #000000;
+}
+
+.storybook-button--white {
+  color: #333;
+  border: 1px solid #333;
+  background-color: #ffffff;
+}
+
+.storybook-button--danger {
+  color: #fff;
+  background-color: red;
+}
+
+.storybook-button--outline-primary {
+  color: #000000;
+  border: 1px solid #000000;
+  background-color: transparent !important;
+}
+
+.storybook-button--outline-gray {
+  color: #4d6670;
+  border: 1px solid #4d6670;
+  background-color: transparent !important;
+}
+
+.storybook-button--outline-danger {
+  color: #d83b3e;
+  border: 1px solid #d83b3e;
+  background-color: transparent !important;
+}
+
+.storybook-button--icon-button {
+  color: #000000;
+  background-color: transparent !important;
+  padding: 0 !important;
+}
+
+.storybook-button--more-menu-item {
+  --tw-bg-opacity: 1;
+  background-color: rgb(210 236 232 / var(--tw-bg-opacity));
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0 !important;
+}
+
+.storybook-button--small {
+  font-size: 12px;
+  padding: 10px 16px;
+}
+
+.storybook-button--medium {
+  font-size: 14px;
+  padding: 11px 20px;
+}
+
+.storybook-button--large {
+  font-size: 16px;
+  padding: 12px 24px;
+}
